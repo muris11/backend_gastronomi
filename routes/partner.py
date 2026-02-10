@@ -490,5 +490,6 @@ def initialize_default_partner_data():
         cursor.close()
         connection.close()
 
-# Panggil fungsi inisialisasi saat module di-load
-initialize_default_partner_data()
+# NOTE:
+# Jangan jalankan inisialisasi database saat module import di shared hosting.
+# Endpoint terkait akan memanggil inisialisasi saat dibutuhkan.

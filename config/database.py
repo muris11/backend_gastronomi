@@ -15,6 +15,7 @@ class Database:
             'password': os.getenv('DB_PASSWORD', ''),
             'database': os.getenv('DB_NAME', 'inventory_db'),
             'port': int(os.getenv('DB_PORT', 3306)),
+            'connection_timeout': int(os.getenv('DB_CONNECT_TIMEOUT', 5)),
             'charset': 'utf8mb4',
             'autocommit': False
         }
@@ -25,6 +26,6 @@ class Database:
             return connection
         except Error as e:
             logger.error(f"Error connecting to MySQL: {e}")
-            raise Exception("Database connection failed")
+            raise Exception(f"Database connection failed: {e}")
 
 db = Database()

@@ -422,5 +422,6 @@ def get_footer_kontak_stats(token: dict = Depends(verify_token)):
         cursor.close()
         connection.close()
 
-# Panggil saat module di-load untuk buat tabel
-create_footer_kontak_table()
+# NOTE:
+# Hindari inisialisasi database saat module import di shared hosting.
+# Buat tabel lewat migrasi/deploy step atau endpoint admin terkontrol.

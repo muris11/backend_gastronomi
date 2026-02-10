@@ -1031,6 +1031,6 @@ async def bulk_operations_layanan(
         cursor.close()
         connection.close()
 
-# Panggil saat module di-load untuk buat tabel
-create_layanan_table()
-create_layanan_slider_table()
+# NOTE:
+# Hindari inisialisasi database saat module import di shared hosting.
+# Buat tabel lewat migrasi/deploy step atau endpoint admin terkontrol.

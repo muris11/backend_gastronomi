@@ -12,6 +12,7 @@ from config.database import db
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["Admin - Tim"])
+API_BASE_URL = os.getenv("API_BASE_URL", "https://api.gastronomi.id").rstrip("/")
 
 # Path untuk menyimpan file upload
 TIM_UPLOAD_DIR = "uploads/tim"
@@ -165,7 +166,7 @@ def get_all_tim_members(token: dict = Depends(verify_token)):
             
             # Tambahkan URL foto jika ada
             if member['foto']:
-                member['foto_url'] = f"http://localhost:8000/uploads/tim/{member['foto']}"
+                member['foto_url'] = f"{API_BASE_URL}/uploads/tim/{member['foto']}"
             else:
                 member['foto_url'] = None
         
@@ -209,7 +210,7 @@ def get_public_tim_members():
             
             # Tambahkan URL foto jika ada
             if member['foto']:
-                member['foto_url'] = f"http://localhost:8000/uploads/tim/{member['foto']}"
+                member['foto_url'] = f"{API_BASE_URL}/uploads/tim/{member['foto']}"
             else:
                 member['foto_url'] = None
         
@@ -673,5 +674,6 @@ def migrate_old_tim_data():
         cursor.close()
         connection.close()
 
-# Jalankan migrasi saat module di-load
-migrate_old_tim_data()
+# NOTE:
+# Jangan jalankan migrasi database saat module import di shared hosting.
+# Jalankan migrasi via script/admin endpoint terkontrol.

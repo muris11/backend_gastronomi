@@ -112,12 +112,12 @@ def read_root():
 @app.get("/health")
 def health_check():
     from config.database import db
+    connection = None
+    cursor = None
     try:
         connection = db.get_connection()
         cursor = connection.cursor()
         cursor.execute("SELECT 1")
-        cursor.close()
-        connection.close()
         return {
             "status": "healthy", 
             "database": "connected",
@@ -126,6 +126,16 @@ def health_check():
         }
     except Exception as e:
         return {"status": "unhealthy", "database": "disconnected", "error": str(e)}
+    finally:
+        if cursor:
+            cursor.close()
+        if connection:
+            connection.close()
+
+
+@app.get("/healthz")
+def healthz():
+    return {"status": "ok"}
 
 @app.get("/debug/upload-folders")
 def debug_upload_folders():
