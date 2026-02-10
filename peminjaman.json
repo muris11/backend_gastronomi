@@ -1,0 +1,46 @@
+[
+  {
+    "id": "38bfaa4f-8bfe-4d2e-9746-d7ed057c9d7d",
+    "nama": "User",
+    "nama_barang": "Ransel",
+    "kategori_barang": "Aksesoris",
+    "barang_id": 23,
+    "tanggal_pinjam": "2025-10-06",
+    "tanggal_kembali": "2025-10-12",
+    "unit": "RANSEL-005",
+    "jumlah": 1,
+    "keperluan": "Untuk kegiatan",
+    "status": "Selesai",
+    "assigned_units": [],
+    "tanggal_verifikasi": "2025-10-12",
+    "dikembalikan": true,
+    "pengembalian": {
+      "tanggal_pengembalian": "2025-10-12",
+      "kondisi_barang": "Baik",
+      "catatan": "Kondisi baik",
+      "foto": "uploads\\18986f81-4493-4506-8afd-8a26ddcbf65f_Navy Club Tas Ransel Kasual didesain trendi….jpg"
+    }
+  },
+  {
+    "id": "14be7997-1998-4ca6-8f61-6adbfbea33c3",
+    "nama": "User",
+    "nama_barang": "Ransel",
+    "kategori_barang": "Aksesoris",
+    "barang_id": 23,
+    "tanggal_pinjam": "2025-10-06",
+    "tanggal_kembali": "2025-10-13",
+    "unit": "RANSEL-004",
+    "jumlah": 1,
+    "keperluan": "Untuk karyawan",
+    "status": "Selesai",
+    "assigned_units": [],
+    "tanggal_verifikasi": "2025-10-13",
+    "dikembalikan": true,
+    "pengembalian": {
+      "tanggal_pengembalian": "2025-10-13",
+      "kondisi_barang": "Baik",
+      "catatan": "Baik",
+      "foto": "uploads\\7ad932b1-3539-4710-a6f8-ddee722f322a_Premium Goose Feather Badminton Shuttlecock for….jpg"
+    }
+  }
+]

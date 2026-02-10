@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "nama_barang": "Bola Volly",
+    "kategori": "Olahraga",
+    "stok": [
+      {
+        "kode": "BOLVOL-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLVOL-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLVOL-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk bermain Bola Volly",
+    "foto": "volleyball.jpeg",
+    "tahun_perolehan": 2020
+  },
+  {
+    "id": 4,
+    "nama_barang": "Bola Basket",
+    "kategori": "Olahraga",
+    "stok": [
+      {
+        "kode": "BOLBAS-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLBAS-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLBAS-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk bermain bola basket",
+    "foto": "48a0995f-581f-422e-ac8a-064da15923d2.jpeg",
+    "tahun_perolehan": 2025
+  },
+  {
+    "id": 5,
+    "nama_barang": "Shuttlecock",
+    "kategori": "Olahraga",
+    "stok": [
+      {
+        "kode": "SHUTTL-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "SHUTTL-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "SHUTTL-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk bermain olahraga badminton",
+    "foto": "Premium_Goose_Feather_Badminton_Shuttlecock_for_.jpg",
+    "tahun_perolehan": 2023
+  },
+  {
+    "id": 6,
+    "nama_barang": "Bola Sepak",
+    "kategori": "Olahraga",
+    "stok": [
+      {
+        "kode": "BOLSEP-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLSEP-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLSEP-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk bermain sepak bola",
+    "foto": "2a697424-f250-4ef2-9882-0ff581adc937.jpeg",
+    "tahun_perolehan": 2021
+  },
+  {
+    "id": 7,
+    "nama_barang": "Bola Tenis",
+    "kategori": "Olahraga",
+    "stok": [
+      {
+        "kode": "BOLTEN-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLTEN-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLTEN-003",
+        "kondisi": "Baik",
+        "status": "Maintenance"
+      }
+    ],
+    "deskripsi": "Untuk bermain bola tenis",
+    "foto": "c4315555-9db5-4b86-80db-bbc731cd9459.jpeg",
+    "tahun_perolehan": 2025
+  },
+  {
+    "id": 16,
+    "nama_barang": "Headphone",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2022,
+    "stok": [
+      {
+        "kode": "HEADPH-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "HEADPH-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "HEADPH-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas karyawan",
+    "foto": "12d71d97-436d-4718-bb6e-4ad224ff43ae.jpeg"
+  },
+  {
+    "id": 17,
+    "nama_barang": "Lanyard",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2025,
+    "stok": [
+      {
+        "kode": "LANYAR-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "LANYAR-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "LANYAR-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk identitas pengenal karyawan\r\n",
+    "foto": "Clear_plastic_badge_id_card_with_white_n_.jpeg"
+  },
+  {
+    "id": 18,
+    "nama_barang": "Proyektor",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2025,
+    "stok": [
+      {
+        "kode": "PROYEK-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-005",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-006",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-007",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-008",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PROYEK-009",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan presentasi tugas kantor",
+    "foto": "InFocus_IN122_Projecteur_SVGA__800_x_600__.jpeg"
+  },
+  {
+    "id": 19,
+    "nama_barang": "Bola Futsal",
+    "kategori": "Olahraga",
+    "tahun_perolehan": 2025,
+    "stok": [
+      {
+        "kode": "BOLFUT-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "BOLFUT-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk bermain olahraga futsal",
+    "foto": "Garanta_a_ginga_brasileira_dentro_das_quatro_.jpg"
+  },
+  {
+    "id": 20,
+    "nama_barang": "Mikrofon",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2023,
+    "stok": [
+      {
+        "kode": "MIKROF-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "MIKROF-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "MIKROF-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "MIKROF-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "MIKROF-005",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan kegiatan kantor",
+    "foto": "Microfon_cu_emitator_pentru_seria_2000_.jpeg"
+  },
+  {
+    "id": 21,
+    "nama_barang": "Tali Skipping",
+    "kategori": "Olahraga",
+    "tahun_perolehan": 2022,
+    "stok": [
+      {
+        "kode": "TALSKI-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TALSKI-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TALSKI-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TALSKI-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk olahraga skipping",
+    "foto": "Jump_Rope___Tali_Skipping___Skipping_Rope___Lompat_.jpeg"
+  },
+  {
+    "id": 22,
+    "nama_barang": "Kamera",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2024,
+    "stok": [
+      {
+        "kode": "KAMERA-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KAMERA-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KAMERA-003",
+        "kondisi": "Rusak",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan dokumentasi kegiatan",
+    "foto": "3d9f1ef8-855a-41ee-9ed8-b99276d619b3.jpeg"
+  },
+  {
+    "id": 23,
+    "nama_barang": "Ransel",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2023,
+    "stok": [
+      {
+        "kode": "RANSEL-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "RANSEL-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "RANSEL-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "RANSEL-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "RANSEL-005",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan karyawan kantor",
+    "foto": "Navy_Club_Tas_Ransel_Kasual_didesain_trendi_.jpg"
+  },
+  {
+    "id": 24,
+    "nama_barang": "Laptop",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2025,
+    "stok": [
+      {
+        "kode": "LAPTOP-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "LAPTOP-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "LAPTOP-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "LAPTOP-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas kantor karyawan",
+    "foto": "b2d771a6-da13-4b70-93de-adcfcd0e139b.jpeg"
+  },
+  {
+    "id": 25,
+    "nama_barang": "Tablet",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2023,
+    "stok": [
+      {
+        "kode": "TABLET-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TABLET-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TABLET-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "TABLET-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas karyawan",
+    "foto": "Lenovo_Tab_K11_Plus_tablet_has_announced_a_new_.jpeg"
+  },
+  {
+    "id": 26,
+    "nama_barang": "Printer",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2020,
+    "stok": [
+      {
+        "kode": "PRINTE-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PRINTE-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PRINTE-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PRINTE-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "PRINTE-005",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas printing karyawan",
+    "foto": "Laser_printer__Printing_personal_laser_printer_.jpeg"
+  },
+  {
+    "id": 27,
+    "nama_barang": "Komputer",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2023,
+    "stok": [
+      {
+        "kode": "KOMPUT-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KOMPUT-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KOMPUT-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KOMPUT-004",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KOMPUT-005",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas karyawan",
+    "foto": "9ad2fc36-0e16-4daa-97df-89092dc3f3a4.jpeg"
+  },
+  {
+    "id": 28,
+    "nama_barang": "Kabel Terminal",
+    "kategori": "Elektronik",
+    "tahun_perolehan": 2024,
+    "stok": [
+      {
+        "kode": "KABTER-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KABTER-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KABTER-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan tugas karyawan",
+    "foto": "SPESIFIKASI_Lubang_3_Kabel_5_meter__Saklar_On_.jpeg"
+  },
+  {
+    "id": 29,
+    "nama_barang": "Jam Tangan",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2024,
+    "stok": [
+      {
+        "kode": "JAMTAN-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "JAMTAN-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "JAMTAN-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan karyawan",
+    "foto": "32ff3d8c-7e0e-4dbc-aa8e-2a72c18a59c1.jpg"
+  },
+  {
+    "id": 30,
+    "nama_barang": "Kacamata",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2025,
+    "stok": [
+      {
+        "kode": "KACAMA-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "KACAMA-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk kebutuhan karyawan",
+    "foto": "46e4b7b5-bb27-46ba-b743-938fc0a59013.jpg"
+  },
+  {
+    "id": 31,
+    "nama_barang": "Jas Kantor",
+    "kategori": "Aksesoris",
+    "tahun_perolehan": 2024,
+    "stok": [
+      {
+        "kode": "JASKAN-001",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "JASKAN-002",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      },
+      {
+        "kode": "JASKAN-003",
+        "kondisi": "Baik",
+        "status": "Tersedia"
+      }
+    ],
+    "deskripsi": "Untuk karyawan",
+    "foto": "Pin_on_Whatsapp_status_for_girls.jpg"
+  }
+]

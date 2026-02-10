@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+a2wsgi
+mysql-connector-python
+python-dotenv
+python-multipart
+Pillow
+psutil
